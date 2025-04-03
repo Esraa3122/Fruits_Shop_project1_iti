@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Header */
+.header{
+    width: 100%;
+    height: 70px;
+    margin: auto;
+    top: 0;
+    z-index: 20;
+    background-color: whitesmoke;
+ }
+ /* Icon Home header */
+ .icon-home-header{
+    padding-top: 20px;
+    padding-left: 140px;
+    font-size: 20px;
+    float: left;
+    cursor: pointer;
+
+ }
+ .name-header{
+    padding-top: 8px;
+    padding-left: 2px;
+    float: right;
+    color: black;
+    text-decoration: none;
+ }
+ /* Navigation bar Header */
+ .navbar-header{
+    list-style: none;
+    float: right;
+    padding-top: 30px;
+    padding-right: 170px;
+}
+ .navbar-header  li{
+    display: inline-block;
+    padding-left: 50px;
+ }
+ .navbar-header li a{
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+    padding-bottom: 5px;
+ }
+/* home */
+.home{
+    width: 100%;
+    height: 88vh;
+    background-color: whitesmoke;
+    margin-bottom: 50px;
+ }
+.home-content{
+    width: 85%;
+    margin: auto;
+    padding-top: 100px;
+    overflow: auto;
+}
+.home-heade{
+    width: 40%;
+    text-align: left;
+    float: left;
+}
+.home-img{
+    width: 50%;
+    float: right;
+}
+ .home-title1{
+    font-size: 50px;
+ }
+ .home p{
+    line-height: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: rgb(51, 51, 51);
+ }
+ .home-btn1, .home-btn2{
+    width: 140px;
+    height: 40px;
+    padding: 5px;
+    color: white;
+    border: none;
+
+ }
+ .home-btn1{
+    background-color: #FC5D35;
+    margin-right: 3px;
+ }
+
+ .home-btn1:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #FC5D35;
+    border: 1px solid #FC5D35;
+ }
+ .home-btn2{
+    background-color: black;
+ }
+
+ .home-btn2:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+ }
+ /* Services */
+.Services-main-title{
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 30px;
+ }
+ .Services-main-p{
+    text-align: center;
+    margin-top: 10px ;
+    margin-bottom: 70px;
+ }
+ .Services-container{
+    width: 75%;
+    margin: auto;
+    padding-bottom: 50px;
+    text-align: center;
+ }
+ .Services-content{
+    overflow: auto;
+ }
+ .Services-item{
+    float: left;
+    width: 31%;
+    /* height: 300px; */
+    border: 0.1px solid rgb(235, 232, 232);
+    padding: 18px 14px;
+    /* text-transform: capitalize; */
+    position: relative;
+ }
+ .Services-div2{
+    margin:0px 2.5%;
+ }
+ .Services-item img{
+    padding-top: 20px;
+ }
+ .Services-item h2{
+    color: #FC5D35;
+    padding-top: 20px;
+ }
+ .Services-item p{
+    color: rgb(56, 56, 56);
+    padding-top: 20px;
+ }
+.Services-item:hover{
+    border-top: 7px solid #FC5D35;
+    box-shadow: 1px 1px 5px 1px rgb(235, 232, 232);
+}
+.Services-btn{
+    width: 140px;
+    height: 40px;
+    padding: 5px;
+    color: white;
+    border: none;
+    background-color: black;
+    margin-top: 20px;
+ }
+
+ .Services-btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 1px 1px 1px 1px black inset;
+ }
+ /* Fresh Fruits */
+ .Fresh-Fruits-main-title{
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 30px;
+ }
+ .Fresh-Fruits-main-p{
+    text-align: center;
+    margin-top: 10px ;
+    margin-bottom: 70px;
+ }
+ /* Fresh-Fruits-Orange */
+ .Fresh-Fruits-Orange, .Fresh-Fruits-Grapes, .Fresh-Fruits-Gauva{
+    margin-top: 50px;
+ }
+ .Fresh-Fruits-Orange-content, .Fresh-Fruits-Grapes-content, .Fresh-Fruits-Gauva-content {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+.Fresh-Fruits-Orange-heade, .Fresh-Fruits-Grapes-heade, .Fresh-Fruits-Gauva-heade{
+    width: 70%;
+    text-align: left;
+    float: left;
+}
+.Fresh-Fruits-Orange-img, .Fresh-Fruits-Grapes-img, .Fresh-Fruits-Gauva-img{
+    width: 20%;
+    float: right;
+    margin-right: 0px 5%;
+}
+ .Fresh-Fruits-Orange-title, .Fresh-Fruits-Grapes-title, .Fresh-Fruits-Gauva-title{
+    font-size: 25px;
+    padding-bottom: 20px;
+ }
+ .Fresh-Fruits-Orange-content p, .Fresh-Fruits-Grapes-content p, .Fresh-Fruits-Gauva-content p{
+    color: rgb(75, 75, 75);
+    font-weight: 200;
+ }
+ .Fresh-Fruits-Orange-btn, .Fresh-Fruits-Grapes-btn, .Fresh-Fruits-Gauva-btn{
+    width: 140px;
+    height: 40px;
+    padding: 5px;
+    color: white;
+    border: none;
+    margin-top: 30px;
+    background-color: black;
+ }
+ .Fresh-Fruits-Orange-btn:hover, .Fresh-Fruits-Grapes-btn:hover, .Fresh-Fruits-Gauva-btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+ }
+ /* very testy fruits */
+ .very-testy-fruits{
+    width: 100%;
+    height: 70vh;
+    background-image: url(../images/tasty.png);
+    background-size: cover;
+    position: relative;
+    margin-top: 30px;
+}
+/* .very-testy-fruits-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.308);
+} */
+.very-testy-fruits-content{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.very-testy-fruits-title{
+    color: white;
+    font-size: 90px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+/* Testimonial */
+.Testimonial{
+    width: 80%;
+    text-align: center;
+    margin: 30px auto;
+}
+.Testimonial-main-title{
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-top: 30px;
+ }
+ .Testimonial-main-p{
+    margin-top: 10px ;
+    margin-bottom: 70px;
+ }
+ .Testimonial-title{
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    color: rgb(46, 46, 46);
+ }
+ .Testimonial-p1{
+    padding-top: 20px ;
+ }
+ /* contact us */
+ .contact-us{
+   margin-top: 100px;
+   margin-bottom: 100px;
+   overflow: auto;
+ }
+ .contact-us-div1{
+   width: 40%;
+   margin-left: 120px;
+   float: left;
+ }
+ .contact-us-form input{
+   border: none;
+   border-bottom: 2px solid rgb(190, 189, 189);
+   display: block;
+   width: 100%;
+   padding-top: 20px;
+ }
+ .contact-us-div2{
+   float: right;
+   margin-top: 40px;
+ }
+ .contact-us-div1 h2{
+   font-size: 30px;
+   text-transform: capitalize;
+   margin-top: 10px;
+}
+#message{
+   padding-top: 60px;
+}
+.contact-us-btn{
+   width: 140px;
+   height: 40px;
+   padding: 5px;
+   color: white;
+   border: none;
+   background-color: #FC5D35;
+   margin-top: 40px;
+}
+.contact-us-btn:hover{
+   cursor: pointer;
+   background-color: white;
+   color: #FC5D35;
+   border-color: #FC5D35;
+   box-shadow: 1px 1px 1px 1px #FC5D35 inset;
+}
+/* footer */
+.footer{
+   overflow: auto;
+   width: 80%;
+   margin: auto;
+}
+.footer-div1,.footer-div2,.footer-div3,.footer-div4{
+   float: left;
+   width: 25%;
+}
+.footer .footer-head{
+   padding-bottom: 10px;
+   font-size: 20px;
+   color: black;
+}
+.footer p{
+   padding: 5px;
+   font-size: 15px;
+   color: rgb(58, 57, 57);
+}
+/* .footer i{
+   width: 25px;
+   height: 25px;
+   border-radius: 50%;
+   color: white;
+   text-align: center;
+   padding-top: 5px;
+   font-size: medium;
+   background-color: black;
+   margin-bottom: 10px;
+} */
+ .footer img{
+   margin-bottom: 10px;
+ }
+.footer input{
+   margin-top: 10px;
+   margin-bottom: 10px;
+   height: 25px;
+}
+.footer button{
+   width: 140px;
+   height: 30px;
+   padding: 5px;
+   color: white;
+   border: none;
+   background-color: #FC5D35;
+   cursor: pointer;
+}
+/* .footer button:hover{
+   cursor: pointer;
+   background-color: white;
+   color: #FC5D35;
+   border: 1px solid #FC5D35;
+} */
+.footer-div5{
+   text-align: center;
+   background-color: whitesmoke;
+   height: 50px;
+   width: 100%;
+   margin-top: 20px;
+   padding-top: 15px;
+   color: rgb(58, 57, 57);
+   font-size: 15px;
+}
